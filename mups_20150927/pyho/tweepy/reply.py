@@ -1,31 +1,14 @@
-# auth get your keys from <https://docs.google.com/document/d/1ZtRuz5dRhUSUSLzNVjOCSCa_2Nm5W1bvsITFe1B8JfE/edit>
 '''
-Application Settings
-Keep the "Consumer Secret" a secret. This key should never be human-readable in your application.
-Consumer Key (API Key)    XZISR9sO8PYBlURR1KTRUziqQ
-Consumer Secret (API Secret)    NzBBCZKReJ8WPDUIYWr0QuvdSMwhOU5wiZT49vTqPkCjGobqLn
-Access Level    Read and write (modify app permissions)
-Owner    SSreesankar
-Owner ID    1134606306
-
-
-Your Access Token
-This access token can be used to make API requests on your own account's behalf. Do not share your access token secret with anyone.
-Access Token    1134606306-qM7WJ84Wku1E0VHuXmZ9mFKZXXggiJGRVudmIdC
-Access Token Secret    8zB7gNGj30nWymrKodEdHSJoGFnjGxFrrtmqObVpp06Jn
-Access Level    Read and write
-Owner    SSreesankar
-Owner ID    1134606306
-
+# auth get your keys from <https://docs.google.com/document/d/1ZtRuz5dRhUSUSLzNVjOCSCa_2Nm5W1bvsITFe1B8JfE/edit>
 '''
 
 import tweepy
 
 
-consumer_key = "XZISR9sO8PYBlURR1KTRUziqQ"
-consumer_secret = "NzBBCZKReJ8WPDUIYWr0QuvdSMwhOU5wiZT49vTqPkCjGobqLn"
-access_token = "1134606306-qM7WJ84Wku1E0VHuXmZ9mFKZXXggiJGRVudmIdC"
-access_token_secret = "8zB7gNGj30nWymrKodEdHSJoGFnjGxFrrtmqObVpp06Jn"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
